@@ -18,7 +18,11 @@ pipeline{
         stage('test'){
             steps{
                 echo 'this is the test job'
+<<<<<<< HEAD
                 sh 'npm test'
+=======
+                sh ‘npm test’
+>>>>>>> dbdd86dd49a84518e476a1f8ad18279fdcc578b5
             }
         }
         stage('package'){
