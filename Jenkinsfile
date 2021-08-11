@@ -17,7 +17,7 @@ tools{
         stage('test'){
             steps{
                 echo 'this is the test job'
-                Sh ‘npm test’
+                sh ‘npm test’
             }
         }
         stage('package'){
